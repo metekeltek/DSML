@@ -1,0 +1,21 @@
+name: almost-turkish
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - jupyterlab
+  - numpy
+  - scikit-learn
+  - pandas
+  - geopandas
+  - matplotlib
+  - seaborn
+  - scienceplots
+  - xgboost
+  - scipy
+  - pip
+  - pip:
+    - aquarel
+
+prefix: /opt/anaconda3/envs/almost-turkish
